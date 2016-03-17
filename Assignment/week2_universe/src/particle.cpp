@@ -27,6 +27,7 @@ void Particle::sphere(){
 void Particle::cone(){
     
     ofSetColor(r,g,b);
+     ofNoFill();
     ofDrawCone(ofGetWidth()/2, ofGetHeight()/2, 200, 200);
     cout << "I'm cone" << endl;
 
