@@ -34,6 +34,7 @@ void Particle::drawBranch(float length, float theta){
     float x3=theta;
     float y3=100-length;
     
+    
    
 //big rotating circles
     ofNoFill();
@@ -42,9 +43,21 @@ void Particle::drawBranch(float length, float theta){
  
     
 //small rotating circles
-    ofNoFill();
-    ofSetColor(abs(tan(ofGetElapsedTimef()/5)*250),abs(tan(ofGetElapsedTimef()/5)*350),(sin(ofGetElapsedTimef()/2)*350));
-    ofDrawCircle(x3,length,theta*5,theta*2);
+
+    
+        ofNoFill();
+        ofSetColor(abs(tan(ofGetElapsedTimef()/5)*250),abs(tan(ofGetElapsedTimef()/5)*350),(sin(ofGetElapsedTimef()/2)*350));
+        ofDrawCircle(x3,length,theta*5,theta*2);
+    
+    
+//triangle
+//    ofNoFill();
+//    ofSetColor(sin(ofGetElapsedTimef())*250,abs(cos(ofGetElapsedTimef()/5)*350),(sin(ofGetElapsedTimef()/3)*250),50);
+//    ofDrawTriangle(0, 0, 10, 30, 20, 10);
+//    
+
+    
+    
     
     //----------
     ofTranslate(0, theta);

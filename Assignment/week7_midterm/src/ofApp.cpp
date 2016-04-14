@@ -35,7 +35,7 @@ void ofApp::draw(){
     triangle.drawBranch (200*length,cos(ofGetElapsedTimef()));
 
     
-    star.drawStar(ofGetWidth()/2, ofGetHeight()/2);
+//    star.drawStar(ofGetWidth()/2, ofGetHeight()/2);
     
 }
 
