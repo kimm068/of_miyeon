@@ -76,7 +76,7 @@ void ofApp::update(){
 void ofApp::draw(){
 
     
-//---------------------------------camera-----------------------------------
+//---------------------------------camera-----------------------
     float movementSpeed = .1;
     float cloudSize = ofGetWidth() / 10;
     float spacing = 1;
