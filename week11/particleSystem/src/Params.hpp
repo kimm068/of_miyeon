@@ -17,6 +17,7 @@
 class Params{
 public:
     void setup();
+    void draw();
     ofPoint eCenter; //center of the emitter
     float eRad; //radius of emitter
     float velRad; //max velocity

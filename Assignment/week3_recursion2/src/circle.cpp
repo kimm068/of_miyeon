@@ -12,7 +12,7 @@
 
 void Recursion::drawCircle(float x, float y, float diam) {
     ofSetCircleResolution(100);
-    ofDrawRectangle(x,y,diam,diam);
+    ofDrawCircle(x,y,diam,diam);
     
     diam = diam*.7;
 //    x=x*0.9;;

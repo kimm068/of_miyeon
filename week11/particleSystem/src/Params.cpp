@@ -9,9 +9,13 @@
 #include "Params.hpp"
 
 void Params::setup(){
-    eCenter= ofPoint(ofGetWidth()/2, ofGetHeight()/2);
+    eCenter= ofPoint(ofRandom(30,ofGetWidth()/2), ofRandom(0,ofGetHeight()/2));
     eRad = 50;
-    velRad = 200;
-    lifeTime= 2.0;
-    rotate=90;
+    
+    //animation range
+    velRad = 2000;
+    
+    //color
+    lifeTime= 12.0;
+//    rotate=90;
 }

@@ -17,22 +17,6 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-//    rectangle.drawRectangle(ofGetWidth(), ofGetHeight()/2, 100, 100);
-//    ofSetColor(255,0,255);
-//
-//    if (r > 9){
-//    if(r>10 || r<200){
-//        r++;
-//    }
-//   
-
-//
-//    if (j>9){
-//    ofSetColor(abs(sin(ofGetElapsedTimef()/2)*250),abs(cos(ofGetElapsedTimef()/2)*100),(sin(ofGetElapsedTimef()/5)*15),j);
-////    ofSetColor(r);
-//    ofFill();
-//    circle.drawCircle (ofGetWidth()/2, ofGetHeight()/2, tan(ofGetElapsedTimef())*150);
-//    }
     
     ofNoFill();
    ofSetColor(abs(cos(ofGetElapsedTimef()/4)*250),abs(cos(ofGetElapsedTimef()/5)*250),(sin(ofGetElapsedTimef()/5)*150));

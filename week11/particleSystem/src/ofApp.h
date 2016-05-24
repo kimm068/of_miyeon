@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "Particle.hpp"
+#include "circle.hpp"
 
 
 class ofApp : public ofBaseApp{
@@ -17,15 +18,12 @@ class ofApp : public ofBaseApp{
 		void mouseDragged(int x, int y, int button);
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
-		void mouseEntered(int x, int y);
-		void mouseExited(int x, int y);
-		void windowResized(int w, int h);
-		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);
-		
+				
     
-    //Particle p;
+//Particle p;
     vector <Particle> p;
+
+    
     float bornCount;
     float bornRate; 
     
@@ -33,4 +31,14 @@ class ofApp : public ofBaseApp{
     float time0;
     float dt;
     
+//recursion circle
+    Recursion circle;
+    int r;
+    float j;
+
+    
+    ofLight light; // creates a light and enables lighting
+    ofEasyCam cam; // add mouse controls for camera movement
+
+        
 };
